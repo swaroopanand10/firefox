@@ -1,0 +1,52 @@
+1650023786672	Sync.LogManager	DEBUG	Flushing file log
+1650023786682	Sync.LogManager	DEBUG	Log cleanup threshold time: 1649159786682
+1650023786691	Sync.LogManager	DEBUG	Done deleting files.
+1650024111810	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: true
+1650024116851	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: true
+1650025928392	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: true
+1650025929433	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: true
+1650025982870	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: true
+1650025984029	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: true
+1650026018980	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: true
+1650026023983	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: true
+1650026073516	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: true
+1650026074626	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: true
+1650026147852	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: true
+1650026148927	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: true
+1650026179801	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: true
+1650026184788	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: true
+1650026221883	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: true
+1650026223014	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: true
+1650026253936	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: true
+1650026259016	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: true
+1650026291043	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: true
+1650026296009	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: true
+1650026329282	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: true
+1650026330313	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: true
+1650027057413	Sync.Service	DEBUG	User-Agent: Firefox/99.0.1 (Linux x86_64) FxSync/1.101.0.20220413030647.desktop
+1650027057413	Sync.Service	INFO	Starting sync at 2022-04-15 18:20:57 in browser session 4YeLCZhZTnFu
+1650027057413	Sync.SyncScheduler	DEBUG	Clearing sync triggers and the global score.
+1650027057415	Sync.Status	INFO	Resetting Status.
+1650027057415	Sync.Status	DEBUG	Status.service: error.sync.failed => success.status_ok
+1650027057415	Sync.Status	DEBUG	Status.sync: success.sync => error.login.reason.network
+1650027057415	Sync.Status	DEBUG	Status.service: success.status_ok => error.sync.failed
+1650027057415	Sync.ErrorHandler	ERROR	Sync encountered an error: Error: Can't sync: Network is offline(resource://services-sync/stages/enginesync.js:59:13) JS Stack trace: sync@enginesync.js:59:13
+onNotify@service.js:1351:28
+WrappedNotify@util.js:210:32
+WrappedLock@util.js:166:27
+_lockedSync@service.js:1370:6
+sync/<@service.js:1334:18
+WrappedCatch@util.js:133:27
+sync@service.js:1335:7
+1650027057415	Sync.SyncScheduler	DEBUG	Sync error count has exceeded 3; enforcing backoff.
+1650027057415	Sync.SyncScheduler	DEBUG	Starting client-initiated backoff. Next sync in 4734048 ms.
+1650027057415	Sync.SyncScheduler	DEBUG	Next sync in 4734048 ms. (why=client-backoff-schedule)
+1650027057416	Sync.Telemetry	INFO	Early submission of sync telemetry due to changed IDs/NodeType
+1650027057418	Sync.Service	DEBUG	Exception calling anonymous function: Error: Can't sync: Network is offline(resource://services-sync/stages/enginesync.js:59:13) JS Stack trace: sync@enginesync.js:59:13
+onNotify@service.js:1351:28
+WrappedNotify@util.js:210:32
+WrappedLock@util.js:166:27
+_lockedSync@service.js:1370:6
+sync/<@service.js:1334:18
+WrappedCatch@util.js:133:27
+sync@service.js:1335:7

@@ -1,0 +1,124 @@
+1650001753463	Sync.SyncScheduler	DEBUG	Next sync in 3600000 ms. (why=schedule)
+1650002439158	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1650002444129	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1650002550386	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1650002555446	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1650002587583	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1650002592551	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1650002661802	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1650002668020	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1650002736127	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1650002737233	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1650002773116	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1650002778090	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1650002926183	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1650002927220	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1650002958152	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1650002963150	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1650003035600	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1650003036682	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1650003069461	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1650003074451	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1650003111684	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1650003112718	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1650003143716	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1650003144765	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1650003187276	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1650003192197	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1650003224333	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1650003225398	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1650003263371	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1650003264402	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1650003298551	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1650003299603	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1650003335647	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1650003340633	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1650003409816	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1650003410924	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1650003446876	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1650003451851	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1650003488991	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1650003490039	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1650003532353	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1650003533382	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1650003564489	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1650003565556	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1650003601616	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1650003606614	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1650003680800	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1650003681850	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1650003713016	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1650003714128	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1650003750107	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1650003755049	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1650003787459	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1650003788915	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1650003866354	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1650003867448	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1650003898487	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1650003903490	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1650004052190	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1650004053545	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1650004089240	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1650004090293	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1650004255064	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1650004256197	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1650004371175	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1650004372244	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1650004447084	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1650004448365	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1650004562497	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1650004563577	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1650004594633	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1650004599624	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1650004634483	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1650004636711	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1650004740962	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1650004742004	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1650004767617	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1650004768708	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1650004804628	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1650004807495	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1650008279505	Sync.SyncScheduler	DEBUG	Network link status changed to "down". Offline?: false
+1650008279505	Sync.SyncScheduler	DEBUG	Clearing sync triggers and the global score.
+1650008279508	Sync.SyncScheduler	DEBUG	Next sync in 3600000 ms. (why=schedule)
+1650008279509	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1650008279562	Sync.SyncScheduler	DEBUG	Woke from sleep.
+1650008279562	Sync.SyncScheduler	DEBUG	Online, will sync in 2s.
+1650008279563	Sync.SyncScheduler	DEBUG	Next sync in 2000 ms. (why=wake_notification)
+1650008279564	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1650008280295	Sync.Service	DEBUG	User-Agent: Firefox/99.0.1 (Linux x86_64) FxSync/1.101.0.20220413030647.desktop
+1650008280295	Sync.Service	INFO	Starting sync at 2022-04-15 13:08:00 in browser session Wpk4lVpK2R9n
+1650008280295	Sync.SyncScheduler	DEBUG	Clearing sync triggers and the global score.
+1650008280298	Sync.Status	INFO	Resetting Status.
+1650008280298	Sync.Status	DEBUG	Status.service: success.status_ok => success.status_ok
+1650008280299	FirefoxAccounts	DEBUG	FxAccountsProfileClient: Requested profile
+1650008280299	FirefoxAccounts	DEBUG	getOAuthToken enter
+1650008280299	FirefoxAccounts	TRACE	getCachedToken returning cached token
+1650008280299	FirefoxAccounts	DEBUG	getOAuthToken returning a cached token
+1650008280300	Services.Common.RESTRequest	DEBUG	GET request to https://profile.accounts.firefox.com/v1/profile
+1650008280300	Sync.SyncAuthManager	INFO	Getting sync key
+1650008280301	Sync.SyncAuthManager	INFO	Getting a sync token from: https://token.services.mozilla.com/1.0/sync/1.5
+1650008280301	Sync.SyncAuthManager	DEBUG	Getting a token using OAuth
+1650008280301	FirefoxAccounts	DEBUG	getOAuthToken enter
+1650008280301	FirefoxAccounts	TRACE	getCachedToken returning cached token
+1650008280301	FirefoxAccounts	DEBUG	getOAuthToken returning a cached token
+1650008280301	Services.Common.TokenServerClient	DEBUG	Beginning OAuth token exchange: https://token.services.mozilla.com/1.0/sync/1.5
+1650008280301	Services.Common.RESTRequest	DEBUG	GET request to https://token.services.mozilla.com/1.0/sync/1.5
+1650008280305	Services.Common.RESTRequest	DEBUG	GET https://profile.accounts.firefox.com/v1/profile failed: 2152398878 - NS_ERROR_UNKNOWN_HOST
+1650008280305	FirefoxAccounts	ERROR	Background refresh of profile failed: {"name":"FxAccountsProfileClientError","code":null,"errno":998,"error":"NETWORK_ERROR","message":"[Exception... \"NS_ERROR_UNKNOWN_HOST\"  nsresult: \"0x804b001e (NS_ERROR_UNKNOWN_HOST)\"  location: \"JS frame :: resource://services-common/rest.js :: onStopRequest :: line 488\"  data: no]"}
+1650008280306	Services.Common.RESTRequest	DEBUG	GET https://token.services.mozilla.com/1.0/sync/1.5 failed: 2152398878 - NS_ERROR_UNKNOWN_HOST
+1650008280306	Sync.SyncAuthManager	ERROR	Non-authentication error in _fetchTokenForUser: TokenServerClientNetworkError({"error":{}})(resource://services-common/tokenserverclient.js:39:36) JS Stack trace: TokenServerClientNetworkError@tokenserverclient.js:62:16
+_tokenServerExchangeRequest@tokenserverclient.js:241:13
+1650008280306	Sync.Status	DEBUG	Status.login: success.login => error.login.reason.network
+1650008280306	Sync.Status	DEBUG	Status.service: success.status_ok => error.login.failed
+1650008280307	Sync.SyncAuthManager	ERROR	Failed to fetch a token for authentication: TokenServerClientNetworkError({"error":{}})(resource://services-common/tokenserverclient.js:39:36) JS Stack trace: TokenServerClientNetworkError@tokenserverclient.js:62:16
+_tokenServerExchangeRequest@tokenserverclient.js:241:13
+1650008280308	FirefoxAccounts	TRACE	not checking freshness of profile as it remains recent
+1650008280310	Sync.Resource	WARN	GET request to https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/194602547/info/collections failed: [Exception... "The lookup of the hostname failed"  nsresult: "0x804b001e (NS_ERROR_UNKNOWN_HOST)"  location: "<unknown>"  data: no] No traceback available
+1650008280310	Sync.Status	DEBUG	Status.sync: success.sync => error.login.reason.network
+1650008280310	Sync.Status	DEBUG	Status.service: error.login.failed => error.sync.failed
+1650008280310	Sync.ErrorHandler	ERROR	Sync encountered an error: [Exception... "The lookup of the hostname failed"  nsresult: "0x804b001e (NS_ERROR_UNKNOWN_HOST)"  location: "<unknown>"  data: no] No traceback available
+1650008280311	Sync.SyncScheduler	DEBUG	Next sync in 600000 ms. (why=reschedule)
+1650008280311	Sync.Telemetry	INFO	Early submission of sync telemetry due to changed IDs/NodeType
+1650008280316	Sync.Service	DEBUG	Exception calling anonymous function: [Exception... "The lookup of the hostname failed"  nsresult: "0x804b001e (NS_ERROR_UNKNOWN_HOST)"  location: "<unknown>"  data: no] No traceback available

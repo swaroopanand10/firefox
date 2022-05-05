@@ -1,0 +1,25 @@
+1651740138946	Sync.SyncScheduler	DEBUG	Next sync in 600000 ms. (why=schedule)
+1651740273486	Sync.SyncScheduler	DEBUG	Network link status changed to "down". Offline?: false
+1651740273486	Sync.SyncScheduler	DEBUG	Clearing sync triggers and the global score.
+1651740273488	Sync.SyncScheduler	DEBUG	Next sync in 600000 ms. (why=schedule)
+1651740273489	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1651740273521	Sync.SyncScheduler	DEBUG	Woke from sleep.
+1651740273521	Sync.SyncScheduler	DEBUG	Online, will sync in 2s.
+1651740273521	Sync.SyncScheduler	DEBUG	Next sync in 2000 ms. (why=wake_notification)
+1651740273521	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1651740275521	Sync.Service	DEBUG	User-Agent: Firefox/100.0 (Linux x86_64) FxSync/1.102.0.20220503101757.desktop
+1651740275521	Sync.Service	INFO	Starting sync at 2022-05-05 14:14:35 in browser session _rKshoC1Azgy
+1651740275521	Sync.SyncScheduler	DEBUG	Clearing sync triggers and the global score.
+1651740275523	Sync.Status	INFO	Resetting Status.
+1651740275523	Sync.Status	DEBUG	Status.service: success.status_ok => success.status_ok
+1651740275524	FirefoxAccounts	DEBUG	FxAccountsProfileClient: Requested profile
+1651740275524	FirefoxAccounts	DEBUG	getOAuthToken enter
+1651740275524	FirefoxAccounts	TRACE	getCachedToken returning cached token
+1651740275524	FirefoxAccounts	DEBUG	getOAuthToken returning a cached token
+1651740275524	Services.Common.RESTRequest	DEBUG	GET request to https://profile.accounts.firefox.com/v1/profile
+1651740275527	Services.Common.RESTRequest	DEBUG	GET https://profile.accounts.firefox.com/v1/profile failed: 2152398878 - NS_ERROR_UNKNOWN_HOST
+1651740275527	FirefoxAccounts	ERROR	Background refresh of profile failed: {"name":"FxAccountsProfileClientError","code":null,"errno":998,"error":"NETWORK_ERROR","message":"[Exception... \"NS_ERROR_UNKNOWN_HOST\"  nsresult: \"0x804b001e (NS_ERROR_UNKNOWN_HOST)\"  location: \"JS frame :: resource://services-common/rest.js :: onStopRequest :: line 488\"  data: no]"}
+1651740281493	Sync.Resource	WARN	GET request to https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/194602547/info/collections failed: [Exception... "Abort"  nsresult: "0x80004004 (NS_ERROR_ABORT)"  location: "<unknown>"  data: no] No traceback available
+1651740281494	Sync.ErrorHandler	ERROR	Sync encountered an error: [Exception... "Abort"  nsresult: "0x80004004 (NS_ERROR_ABORT)"  location: "<unknown>"  data: no] No traceback available
+1651740281494	Sync.SyncScheduler	DEBUG	Next sync in 600000 ms. (why=reschedule)
+1651740281499	Sync.Service	DEBUG	Exception calling anonymous function: [Exception... "Abort"  nsresult: "0x80004004 (NS_ERROR_ABORT)"  location: "<unknown>"  data: no] No traceback available

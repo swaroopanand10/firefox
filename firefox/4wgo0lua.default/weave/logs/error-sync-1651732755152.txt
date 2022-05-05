@@ -1,0 +1,111 @@
+1651732754835	FirefoxAccounts	TRACE	initializing new storage manager
+1651732754835	FirefoxAccounts	TRACE	starting fetch of json user data
+1651732754835	Sync.Status	INFO	Resetting Status.
+1651732754835	Sync.Status	DEBUG	Status.service: undefined => success.status_ok
+1651732754836	Sync.SyncScheduler	TRACE	Setting SyncScheduler policy values to defaults.
+1651732754836	Sync.SyncScheduler	DEBUG	Clearing sync triggers and the global score.
+1651732754836	Sync.Service	INFO	Loading Weave 1.102.0
+1651732754837	Sync.Engine.Clients	DEBUG	Engine constructed
+1651732754837	Sync.Engine.Clients	DEBUG	Resetting clients last sync time
+1651732754838	Sync.Engine.Addons	DEBUG	Engine constructed
+1651732754841	FirefoxAccounts	TRACE	finished fetch of json user data - took: 6
+1651732754841	FirefoxAccounts	DEBUG	reading secure storage with existing: []
+1651732754841	FirefoxAccounts	TRACE	starting fetch of user data from the login manager
+1651732754842	FirefoxAccounts	DEBUG	secure read fetched items: ["scopedKeys","kSync","kXCS","kExtSync","kExtKbHash"]
+1651732754842	FirefoxAccounts	TRACE	initializing of new storage manager done
+1651732754844	Sync.Engine.Addons	DEBUG	SyncEngine initialized: addons
+1651732754845	Sync.Engine.Bookmarks	DEBUG	Engine constructed
+1651732754848	FirefoxAccounts	DEBUG	FxAccountsWebChannel registered: account_updates with origin https://accounts.firefox.com
+1651732754848	Sync.Engine.Bookmarks	DEBUG	SyncEngine initialized: bookmarks
+1651732754849	Sync.Engine.Forms	DEBUG	Engine constructed
+1651732754850	Sync.Engine.Forms	DEBUG	SyncEngine initialized: forms
+1651732754850	Sync.Engine.History	DEBUG	Engine constructed
+1651732754851	Sync.Engine.History	DEBUG	SyncEngine initialized: history
+1651732754852	Sync.Engine.Passwords	DEBUG	Engine constructed
+1651732754855	Sync.Engine.Passwords	DEBUG	SyncEngine initialized: passwords
+1651732754855	Sync.Engine.Prefs	DEBUG	Engine constructed
+1651732754856	Sync.Engine.Prefs	DEBUG	SyncEngine initialized: prefs
+1651732754856	Sync.Engine.Tabs	DEBUG	Engine constructed
+1651732754857	Sync.Engine.Tabs	DEBUG	SyncEngine initialized: tabs
+1651732754857	Sync.Engine.Tabs	DEBUG	Resetting tabs last sync time
+1651732754857	Sync.Engine.CreditCards	DEBUG	Engine constructed
+1651732754858	Sync.Engine.CreditCards	DEBUG	SyncEngine initialized: creditcards
+1651732754859	Sync.Engine.Extension-Storage	DEBUG	Engine constructed
+1651732754859	Sync.Engine.Extension-Storage	DEBUG	SyncEngine initialized: extension-storage
+1651732754860	Sync.Service	INFO	Mozilla/5.0 (X11; Linux x86_64; rv:100.0) Gecko/20100101 Firefox/100.0
+1651732754861	FirefoxAccounts	DEBUG	FxAccountsProfileClient: Initialized
+1651732754862	FirefoxAccounts	DEBUG	FxAccountsProfileClient: Requested profile
+1651732754862	FirefoxAccounts	DEBUG	getOAuthToken enter
+1651732754862	FirefoxAccounts	TRACE	getCachedToken returning cached token
+1651732754862	FirefoxAccounts	DEBUG	getOAuthToken returning a cached token
+1651732754862	Services.Common.RESTRequest	DEBUG	GET request to https://profile.accounts.firefox.com/v1/profile
+1651732754870	FirefoxAccounts	INFO	fetching updated device list
+1651732754872	Sync.Service	DEBUG	User-Agent: Firefox/100.0 (Linux x86_64) FxSync/1.102.0.20220503101757.desktop
+1651732754872	Sync.Service	INFO	Starting sync at 2022-05-05 12:09:14 in browser session tz-ELerXvRrO
+1651732754872	Sync.Service	DEBUG	In sync: should login.
+1651732754872	Sync.Service	INFO	User logged in successfully - verifying login.
+1651732754872	Sync.SyncAuthManager	DEBUG	unlockAndVerifyAuthState already has (or can fetch) sync keys
+1651732754872	Sync.Status	DEBUG	Status.login: success.login => success.status_ok
+1651732754872	Sync.Status	DEBUG	Status.service: success.status_ok => error.login.failed
+1651732754872	Sync.Service	DEBUG	Fetching unlocked auth state returned success.status_ok
+1651732754872	Sync.SyncAuthManager	INFO	Getting sync key
+1651732754872	Sync.SyncAuthManager	INFO	Getting a sync token from: https://token.services.mozilla.com/1.0/sync/1.5
+1651732754872	Sync.SyncAuthManager	DEBUG	Getting a token using OAuth
+1651732754872	FirefoxAccounts	DEBUG	getOAuthToken enter
+1651732754872	FirefoxAccounts	TRACE	getCachedToken returning cached token
+1651732754872	FirefoxAccounts	DEBUG	getOAuthToken returning a cached token
+1651732754872	Services.Common.TokenServerClient	DEBUG	Beginning OAuth token exchange: https://token.services.mozilla.com/1.0/sync/1.5
+1651732754872	Services.Common.RESTRequest	DEBUG	GET request to https://token.services.mozilla.com/1.0/sync/1.5
+1651732754874	Services.Common.RESTRequest	DEBUG	GET request to https://api.accounts.firefox.com/v1/account/devices
+1651732754876	FirefoxAccounts	INFO	Already fetching device list, return existing promise
+1651732755102	Services.Common.RESTRequest	DEBUG	GET https://profile.accounts.firefox.com/v1/profile failed: 2153390067 - 
+1651732755102	FirefoxAccounts	ERROR	Background refresh of profile failed: {"name":"FxAccountsProfileClientError","code":null,"errno":998,"error":"NETWORK_ERROR","message":"[Exception... \"<no message>\"  nsresult: \"0x805a1ff3 (<unknown>)\"  location: \"JS frame :: resource://services-common/rest.js :: onStopRequest :: line 488\"  data: no]"}
+1651732755102	FirefoxAccounts	ERROR	Background refresh of profile failed: {"name":"FxAccountsProfileClientError","code":null,"errno":998,"error":"NETWORK_ERROR","message":"[Exception... \"<no message>\"  nsresult: \"0x805a1ff3 (<unknown>)\"  location: \"JS frame :: resource://services-common/rest.js :: onStopRequest :: line 488\"  data: no]"}
+1651732755102	FirefoxAccounts	ERROR	Background refresh of profile failed: {"name":"FxAccountsProfileClientError","code":null,"errno":998,"error":"NETWORK_ERROR","message":"[Exception... \"<no message>\"  nsresult: \"0x805a1ff3 (<unknown>)\"  location: \"JS frame :: resource://services-common/rest.js :: onStopRequest :: line 488\"  data: no]"}
+1651732755102	FirefoxAccounts	ERROR	Background refresh of profile failed: {"name":"FxAccountsProfileClientError","code":null,"errno":998,"error":"NETWORK_ERROR","message":"[Exception... \"<no message>\"  nsresult: \"0x805a1ff3 (<unknown>)\"  location: \"JS frame :: resource://services-common/rest.js :: onStopRequest :: line 488\"  data: no]"}
+1651732755106	Services.Common.RESTRequest	DEBUG	GET https://api.accounts.firefox.com/v1/account/devices failed: 2153390067 - 
+1651732755106	Hawk	WARN	hawk request error: [Exception... "<no message>"  nsresult: "0x805a1ff3 (<unknown>)"  location: "JS frame :: resource://services-common/rest.js :: onStopRequest :: line 488"  data: no] Stack trace: onStopRequest()@resource://services-common/rest.js:488
+1651732755106	Services.Common.RESTResponse	DEBUG	Caught exception fetching HTTP status code: [Exception... "Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsIHttpChannel.responseStatus]"  nsresult: "0x80040111 (NS_ERROR_NOT_AVAILABLE)"  location: "JS frame :: resource://services-common/rest.js :: get status :: line 624"  data: no] Stack trace: get status()@resource://services-common/rest.js:624
+request()@resource://services-common/hawkclient.js:239
+1651732755106	Services.Common.RESTResponse	DEBUG	Caught exception fetching HTTP status text: [Exception... "Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsIHttpChannel.responseStatusText]"  nsresult: "0x80040111 (NS_ERROR_NOT_AVAILABLE)"  location: "JS frame :: resource://services-common/rest.js :: get statusText :: line 639"  data: no] Stack trace: get statusText()@resource://services-common/rest.js:639
+request()@resource://services-common/hawkclient.js:247
+1651732755107	Hawk	DEBUG	(Response) /account/devices: code: null - Status text: null
+1651732755107	Services.Common.RESTResponse	DEBUG	Caught exception processing response headers: [Exception... "Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsIHttpChannel.visitResponseHeaders]"  nsresult: "0x80040111 (NS_ERROR_NOT_AVAILABLE)"  location: "JS frame :: resource://services-common/rest.js :: get headers :: line 671"  data: no] Stack trace: get headers()@resource://services-common/rest.js:671
+_maybeNotifyBackoff()@resource://services-common/hawkclient.js:316
+request()@resource://services-common/hawkclient.js:255
+1651732755107	Services.Common.RESTResponse	DEBUG	Caught exception processing response headers: [Exception... "Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsIHttpChannel.visitResponseHeaders]"  nsresult: "0x80040111 (NS_ERROR_NOT_AVAILABLE)"  location: "JS frame :: resource://services-common/rest.js :: get headers :: line 671"  data: no] Stack trace: get headers()@resource://services-common/rest.js:671
+_maybeNotifyBackoff()@resource://services-common/hawkclient.js:316
+request()@resource://services-common/hawkclient.js:256
+1651732755107	Services.Common.RESTResponse	DEBUG	Caught exception fetching HTTP status text: [Exception... "Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsIHttpChannel.responseStatusText]"  nsresult: "0x80040111 (NS_ERROR_NOT_AVAILABLE)"  location: "JS frame :: resource://services-common/rest.js :: get statusText :: line 639"  data: no] Stack trace: get statusText()@resource://services-common/rest.js:639
+_constructError()@resource://services-common/hawkclient.js:122
+request()@resource://services-common/hawkclient.js:261
+1651732755107	Services.Common.RESTResponse	DEBUG	Caught exception fetching HTTP status code: [Exception... "Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsIHttpChannel.responseStatus]"  nsresult: "0x80040111 (NS_ERROR_NOT_AVAILABLE)"  location: "JS frame :: resource://services-common/rest.js :: get status :: line 624"  data: no] Stack trace: get status()@resource://services-common/rest.js:624
+_constructError()@resource://services-common/hawkclient.js:123
+request()@resource://services-common/hawkclient.js:261
+1651732755107	Services.Common.RESTResponse	DEBUG	Caught exception fetching HTTP status code: [Exception... "Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsIHttpChannel.responseStatus]"  nsresult: "0x80040111 (NS_ERROR_NOT_AVAILABLE)"  location: "JS frame :: resource://services-common/rest.js :: get status :: line 624"  data: no] Stack trace: get status()@resource://services-common/rest.js:624
+_constructError()@resource://services-common/hawkclient.js:124
+request()@resource://services-common/hawkclient.js:261
+1651732755107	Services.Common.RESTResponse	DEBUG	Caught exception processing response headers: [Exception... "Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsIHttpChannel.visitResponseHeaders]"  nsresult: "0x80040111 (NS_ERROR_NOT_AVAILABLE)"  location: "JS frame :: resource://services-common/rest.js :: get headers :: line 671"  data: no] Stack trace: get headers()@resource://services-common/rest.js:671
+_constructError()@resource://services-common/hawkclient.js:130
+request()@resource://services-common/hawkclient.js:261
+1651732755107	FirefoxAccounts	ERROR	error GETing /account/devices: {"error":{},"errorString":"[Exception... \"<no message>\"  nsresult: \"0x805a1ff3 (<unknown>)\"  location: \"JS frame :: resource://services-common/rest.js :: onStopRequest :: line 488\"  data: no]","message":null,"code":null,"errno":null}
+1651732755107	Sync.Browser	ERROR	Refreshing device list failed.: {"error":{},"errorString":"[Exception... \"<no message>\"  nsresult: \"0x805a1ff3 (<unknown>)\"  location: \"JS frame :: resource://services-common/rest.js :: onStopRequest :: line 488\"  data: no]","message":null,"code":null,"errno":null}
+1651732755107	Sync.Browser	ERROR	Refreshing device list failed.: {"error":{},"errorString":"[Exception... \"<no message>\"  nsresult: \"0x805a1ff3 (<unknown>)\"  location: \"JS frame :: resource://services-common/rest.js :: onStopRequest :: line 488\"  data: no]","message":null,"code":null,"errno":null}
+1651732755150	Services.Common.RESTRequest	DEBUG	GET https://token.services.mozilla.com/1.0/sync/1.5 failed: 2153390067 - 
+1651732755150	Sync.SyncAuthManager	ERROR	Non-authentication error in _fetchTokenForUser: TokenServerClientNetworkError({"error":{}})(resource://services-common/tokenserverclient.js:39:36) JS Stack trace: TokenServerClientNetworkError@tokenserverclient.js:62:16
+_tokenServerExchangeRequest@tokenserverclient.js:241:13
+1651732755150	Sync.Status	DEBUG	Status.login: success.status_ok => error.login.reason.network
+1651732755150	Sync.Status	DEBUG	Status.service: error.login.failed => error.login.failed
+1651732755150	Sync.SyncAuthManager	INFO	Failed to fetch the cluster URL: TokenServerClientNetworkError({"error":{}})(resource://services-common/tokenserverclient.js:39:36) JS Stack trace: TokenServerClientNetworkError@tokenserverclient.js:62:16
+_tokenServerExchangeRequest@tokenserverclient.js:241:13
+1651732755150	Sync.Service	DEBUG	verifyLogin failed: TokenServerClientNetworkError({"error":{}})(resource://services-common/tokenserverclient.js:39:36) JS Stack trace: TokenServerClientNetworkError@tokenserverclient.js:62:16
+_tokenServerExchangeRequest@tokenserverclient.js:241:13
+1651732755150	Sync.Status	DEBUG	Status.login: error.login.reason.network => error.login.reason.network
+1651732755150	Sync.Status	DEBUG	Status.service: error.login.failed => error.login.failed
+1651732755150	Sync.ErrorHandler	ERROR	Sync encountered a login error
+1651732755150	Sync.SyncScheduler	DEBUG	Clearing sync triggers and the global score.
+1651732755150	Sync.SyncScheduler	DEBUG	Clearing sync triggers and the global score.
+1651732755151	FirefoxAccounts	TRACE	not checking freshness of profile as it remains recent
+1651732755151	Sync.Service	DEBUG	Exception calling WrappedLock: Error: Login failed: error.login.reason.network(resource://services-sync/service.js:1038:15) JS Stack trace: onNotify@service.js:1038:15
+1651732755151	Sync.Service	DEBUG	Not syncing: login returned false.
+1651732755151	FirefoxAccounts	TRACE	not checking freshness of profile as it remains recent

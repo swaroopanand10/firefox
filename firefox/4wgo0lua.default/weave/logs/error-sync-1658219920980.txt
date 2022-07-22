@@ -1,0 +1,26 @@
+1658216320977	Sync.SyncScheduler	DEBUG	Next sync in 3600000 ms. (why=schedule)
+1658216321097	Services.Common.RESTRequest	DEBUG	GET https://profile.accounts.firefox.com/v1/profile 304
+1658219920977	Sync.Service	DEBUG	User-Agent: Firefox/102.0.1 (Linux x86_64) FxSync/1.104.0.20220706125320.desktop
+1658219920977	Sync.Service	INFO	Starting sync at 2022-07-19 14:08:40 in browser session OboTMngnanPW
+1658219920977	Sync.SyncScheduler	DEBUG	Clearing sync triggers and the global score.
+1658219920978	Sync.Status	INFO	Resetting Status.
+1658219920978	Sync.Status	DEBUG	Status.service: success.status_ok => success.status_ok
+1658219920978	Sync.Status	DEBUG	Status.sync: success.sync => error.login.reason.network
+1658219920978	Sync.Status	DEBUG	Status.service: success.status_ok => error.sync.failed
+1658219920978	Sync.ErrorHandler	ERROR	Sync encountered an error: Error: Can't sync: Network is offline(resource://services-sync/stages/enginesync.js:59:13) JS Stack trace: sync@enginesync.js:59:13
+onNotify@service.js:1350:28
+WrappedNotify@util.js:201:32
+WrappedLock@util.js:157:27
+_lockedSync@service.js:1369:6
+sync/<@service.js:1333:18
+WrappedCatch@util.js:124:27
+sync@service.js:1334:7
+1658219920979	Sync.SyncScheduler	DEBUG	Next sync in 3600000 ms. (why=reschedule)
+1658219920980	Sync.Service	DEBUG	Exception calling anonymous function: Error: Can't sync: Network is offline(resource://services-sync/stages/enginesync.js:59:13) JS Stack trace: sync@enginesync.js:59:13
+onNotify@service.js:1350:28
+WrappedNotify@util.js:201:32
+WrappedLock@util.js:157:27
+_lockedSync@service.js:1369:6
+sync/<@service.js:1333:18
+WrappedCatch@util.js:124:27
+sync@service.js:1334:7

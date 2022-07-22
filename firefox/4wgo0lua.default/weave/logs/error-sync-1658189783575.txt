@@ -1,0 +1,63 @@
+1658189176383	Sync.SyncScheduler	DEBUG	Next sync in 600000 ms. (why=schedule)
+1658189776384	Sync.Service	DEBUG	User-Agent: Firefox/102.0.1 (Linux x86_64) FxSync/1.104.0.20220706125320.desktop
+1658189776384	Sync.Service	INFO	Starting sync at 2022-07-19 05:46:16 in browser session mmOJy2hr07t5
+1658189776384	Sync.SyncScheduler	DEBUG	Clearing sync triggers and the global score.
+1658189776386	Sync.Status	INFO	Resetting Status.
+1658189776386	Sync.Status	DEBUG	Status.service: success.status_ok => success.status_ok
+1658189776386	FirefoxAccounts	DEBUG	FxAccountsProfileClient: Requested profile
+1658189776386	FirefoxAccounts	DEBUG	getOAuthToken enter
+1658189776386	FirefoxAccounts	TRACE	getCachedToken returning cached token
+1658189776386	FirefoxAccounts	DEBUG	getOAuthToken returning a cached token
+1658189776386	Services.Common.RESTRequest	DEBUG	GET request to https://profile.accounts.firefox.com/v1/profile
+1658189776387	Sync.SyncAuthManager	INFO	Getting sync key
+1658189776387	Sync.SyncAuthManager	INFO	Getting a sync token from: https://token.services.mozilla.com/1.0/sync/1.5
+1658189776387	Sync.SyncAuthManager	DEBUG	Getting a token using OAuth
+1658189776387	FirefoxAccounts	DEBUG	getOAuthToken enter
+1658189776387	FirefoxAccounts	TRACE	getCachedToken returning cached token
+1658189776387	FirefoxAccounts	DEBUG	getOAuthToken returning a cached token
+1658189776387	Services.Common.TokenServerClient	DEBUG	Beginning OAuth token exchange: https://token.services.mozilla.com/1.0/sync/1.5
+1658189776387	Services.Common.RESTRequest	DEBUG	GET request to https://token.services.mozilla.com/1.0/sync/1.5
+1658189777969	Services.Common.RESTRequest	DEBUG	GET https://profile.accounts.firefox.com/v1/profile 304
+1658189782783	Services.Common.RESTRequest	DEBUG	GET https://token.services.mozilla.com/1.0/sync/1.5 200
+1658189782783	Services.Common.TokenServerClient	DEBUG	Got token response: 200
+1658189782783	Services.Common.TokenServerClient	DEBUG	Successful token response
+1658189782783	Sync.Status	DEBUG	Status.login: success.login => success.login
+1658189782783	Sync.Status	DEBUG	Status.service: success.status_ok => success.status_ok
+1658189782783	FirefoxAccounts	TRACE	not checking freshness of profile as it remains recent
+1658189783572	Sync.Resource	DEBUG	GET fail 503 https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/194602547/info/collections
+1658189783572	Sync.Resource	WARN	GET request to https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/194602547/info/collections failed with status 503
+1658189783572	Sync.ErrorHandler	DEBUG	Got Retry-After: 3600
+1658189783572	Sync.Status	DEBUG	Status.sync: success.sync => error.sync.reason.serverMaintenance
+1658189783572	Sync.Status	DEBUG	Status.service: success.status_ok => error.sync.failed
+1658189783572	Sync.SyncScheduler	DEBUG	Got backoff notification: 3600000ms
+1658189783572	Sync.SyncScheduler	DEBUG	Fuzzed minimum next sync: 1658193383572
+1658189783572	Sync.Service	ERROR	Aborting sync: failed to get collections.
+1658189783572	Sync.Resource	WARN	Got exception parsing response body: SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data(resource://services-sync/resource.js:229:21) JS Stack trace: _processResponse/<@resource.js:229:21
+get@XPCOMUtils.jsm:62:51
+format@Log.jsm:648:19
+formatText@Log.jsm:577:44
+format@Log.jsm:595:12
+append@Log.jsm:688:37
+append@logmanager.js:156:44
+log@Log.jsm:385:16
+error@Log.jsm:393:10
+observe@policies.js:891:19
+observe@observers.js:135:21
+notify@observers.js:87:18
+notify@util.js:195:19
+WrappedNotify@util.js:205:17
+1658189783572	Sync.Resource	DEBUG	Parse fail: Response body starts: <html>
+<head><title>503 Service Unavailable</title></head>
+<body bgcolor="white">
+<center><h1>503 Se
+1658189783572	Sync.ErrorHandler	ERROR	Sync encountered an error: ({data:"<html>\n<head><title>503 Service Unavailable</title></head>\n<body bgcolor=\"white\">\n<center><h1>503 Service Cloudy: Try again later. </h1></center>\n</body>\n</html>\n", url:"https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/194602547/info/collections", status:503, success:false, headers:{'alt-svc':"clear", 'content-length':"162", 'content-type':"text/html", date:"Tue, 19 Jul 2022 00:16:23 GMT", etag:"\"62d1eeca-a2\"", 'retry-after':"3600", server:"openresty/1.15.8.2", via:"1.1 google", 'x-firefox-spdy':"h2"}, get obj() {
+        if (!redefining) {
+          // Make sure we don't get into an infinite recursion loop if
+          // the getter lambda does something shady.
+          redefining = true;
+          return redefine(aObject, aName, aLambda.apply(aObject));
+        }
+      }})
+1658189783573	Sync.SyncScheduler	DEBUG	Starting client-initiated backoff. Next sync in 4108431.359823169 ms.
+1658189783573	Sync.SyncScheduler	DEBUG	Next sync in 4108431.359823169 ms. (why=client-backoff-schedule)
+1658189783575	Sync.Service	DEBUG	Exception calling anonymous function: {"data":"<html>\n<head><title>503 Service Unavailable</title></head>\n<body bgcolor=\"white\">\n<center><h1>503 Service Cloudy: Try again later. </h1></center>\n</body>\n</html>\n","url":"https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/194602547/info/collections","status":503,"success":false,"headers":{"alt-svc":"clear","content-length":"162","content-type":"text/html","date":"Tue, 19 Jul 2022 00:16:23 GMT","etag":"\"62d1eeca-a2\"","retry-after":"3600","server":"openresty/1.15.8.2","via":"1.1 google","x-firefox-spdy":"h2"}}
